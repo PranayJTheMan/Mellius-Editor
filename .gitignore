@@ -23,4 +23,7 @@ bun.lockb
 
 target/
 
-.cargo-tools/
+.cargo-tools/-e 
+# Environment files
+*.env
+*.env.*
